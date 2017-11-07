@@ -37,7 +37,7 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 	lSur := len(nam.S)
 	lGiv := len(nam.G)
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 20; i++ {
 		fmt.Println(nam.S[rand.Intn(lSur)], nam.G[rand.Intn(lGiv)], nam.G[rand.Intn(lGiv)])
 	}
 }
